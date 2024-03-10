@@ -1,107 +1,167 @@
+<!-- Proudly coded by Billy (https://bybilly.uk) -->
+<!-- Version: 1.2 -->
+
+
 <!DOCTYPE html>
-<html lang="en">
-  
-  <!-- Replace the text between the tags with your own information! -->
-  
-  <!-- The <head> section contains the meta-information about your website, including title and links to stylesheets. -->
-  <head>
-    <title>Wesky :3</title>
-    <meta name="description" content="Just my web">
+<html>
+<head>
+	<title>HeroWars | Home</title>
+	<meta name="description" content="Just my web">
 	  <meta property="og:title" content="Kdoseptal.eu">
-	  <meta property="og:site_name" content="Created by Weskac.">
-	  <meta property="og:description" content="Dal jsem si chunky na max, ale i tak jsem nenašel nikoho kdo se ptal. ">
+	  <meta property="og:site_name" content="Oficiální stránka minecraft serveru Herowars">
+	  <meta property="og:description" content="Chcete si záhrát něco nového co ještě nikdo neudělal? připojte se na náš minecraft server mc.herowars.cz. ">
 	  <meta property="og:url" content="https://kdoseptal.eu">
 	  <meta name="twitter:card" content="summary_large_image">
 	  <meta name="description" content="Created by Weskac. | Dal jsem si chunky na max, ale i tak jsem nenašel nikoho kdo se ptal." />
-
-
     <link rel="shortcut icon" href="assets/Logo.png">
-    <!-- Bootstrap CSS CDN – provides free CSS! (The container, header, and footer sections are all provided by Bootstrap.) -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    
-    <!-- This links to our CSS file, which adds styling to the website. -->
-    <link rel="stylesheet" type="text/css" href="main.css">
-    
-    <!-- Font Awesome CDN – for icons for email and social media links. -->
-    <script src="https://kit.fontawesome.com/c0e54b873e.js" crossorigin="anonymous"></script>
-    <!DOCTYPE html>
-
-   <head>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta charset="UTF-8" />
-   <link rel="stylesheet" href="assets/css/stylesheet.css">
-   </head>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<script src="https://use.fontawesome.com/30155533f0.js"></script>
+	<script type="text/javascript">
+		function mobile() {
+			var bars = document.getElementById("mnav");
+			if(bars.className === "mnav") {
+				bars.className += " responsive";
+			} else {
+				bars.className = "mnav";
+			}
+		}
+	</script>
+</head>
 <body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="js/firefly.js" type="text/javascript"></script>
-    <script src="js/main.js" type="text/javascript"></script>
-<div class="bg" id="bg"></div>
-</div>
-<script src="ajax/libs/three.js/r121/three.min.js" type="394f14b28641eb85178db5b0-text/javascript"></script>
-<script src="npm/vanta%40latest/dist/vanta.net.min.js" type="394f14b28641eb85178db5b0-text/javascript"></script></script>
-<script src="assets/js/vanta.js" type="394f14b28641eb85178db5b0-text/javascript"></script>
-<script src="cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="394f14b28641eb85178db5b0-|49" defer=""></script></body>
+	<header>
+		<div class="nav">
+			<ul class="nav-items" id="nav-items">
+				<a><li onclick="mobile()" class="icon fa fa-bars fa-2x"></li></a>
+				<a href="#main"><li class="h">
+					<div class="overlay"></div>
+					Domů
+				</li></a>
+				</li></a>
+				<div class="log"><img alt="MyServer Logo" class="logo" src="img/logo.png"></div>
+				<a href="#games"><li class="h">
+					<div class="overlay"></div>
+					Naše hra
+				</li></a>
+			</ul>
+			<div class="mnav" id="mnav">
+				<a href="#main"><li class="i">
+					Home
+				</li></a>
+				<a href="#"><li class="i">
+					Forums
+				</li></a>
+				<a href="#games"><li class="i">
+					Games
+				</li></a>
+				<a href="#contact"><li class="i">
+					Contact Us
+				</li></a>
+			</div>
+		</div>
 
-    <!-- Ignore the next few lines – they're just for Bootstrap. -->
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  
-  <!-- The body contains the content of the website. -->
-  
-  <body>
-    
-    <!-- A div contains a "section" of the website. -->
-    <div class="container-fluid">
-      <div class="header">
-        <!-- h1 and h2 are header tags (meaning larger text, with h1 > h2). -->
-        <h2>Wesky plesky</h2>
-        <h1>✦ Phonk and hardstyle ✦</h1>
-      </div>
-    </div>
-    
-    <footer class="footer">
-      <div class="container">
-        <div class="icons">
-          
-          <!-- a href indicates a link (here, to your email address). -->
-          <a href="instagram.html">
-            <!-- This is the icon for email. Since it's surrounded by the 'a' tag, it links to your email address! -->
-            <i class="fa-brands fa-instagram fa-3x" style="color: #ffffff;" title="Instagram"></i>
-          </a>
-          
-          <a href="youtube.html">
-            <i class="fa-brands fa-youtube fa-3x" style="color: #ffffff;" title="YouTube"></i>
-          </a>
-          
-          <a href="discord.html">
-            <i class="fa-brands fa-discord fa-3x" style="color: #ffffff;" title="Discord"></i>
-          </a>
+		<div class="hero" id="main">
+			<h1>HEROWARS.CZ</h1>
+			<!-- Replace play.myserver.net with your IP address -->
+			<!-- Do it for both examples below -->
+			<!-- Please set both your IP and port -->
+			<p class="info">Připoj se ke <span class="sip" data-ip="mc.herowars.cz" data-port="25565">
+			0</span> hráčům na serveru <span class="ip">mc.herowars.cz</span></p>
+		</div>
+	</header>
+	<div class="main">
+		<div id="description">
+			<div>
+				<i class="fa fa-rocket fa-4x"></i>
+				<span>
+					<h3>Originální minihry</h3>
+					<p>Naše minihra je velice originální, věříme že si užijete hodně zábavy.</p>
+				</span>
+			</div>
+			<div>
+				<i class="fa fa-user fa-4x"></i>
+				<span>
+					<h3>Náš tým</h3>
+					<p>Náš tým je velice schopný, pokud máte nějaký problém, tak nemějte strach se někomu ozvat.</p>
+				</span>
+			</div>
+			<div>
+				<i class="fa fa-server fa-4x"></i>
+				<span>
+					<h3>Náš hosting</h3>
+					<p>Nemějte strach o ping nebo sekání serveru, server je dostatečně optimalizovyný na hraní aby se nesekal nebo nebyl velký</p>
+				</span>
+			</div>
+		</div>
+		<div id="games">
+			<h2>Naše hra</h2>
+			<div class="game e">
+				<div>
+					<h3>HeroWars</h3>
+					<p>Originální minihra ve stylu skywars s různými hrdiny, kteří mohou využívat své schopnosti k usnadnění výhry.
 
-          <a href="twitch.html" >
-            <i class="fa-brands fa-twitch fa-3x" style="color: #ffffff;" title="Twitch"></i>
-          </a>
+						Každému hráči je udělen meč, bloky a zvolený hrdina. Úkolem je zbavit se ostatních hráčů a přežít jako poslední.
+						
+						Věříme, že jsme tě alespoň trochu zaujali a zbytek si omrkneš sám příchodem na server!</p>
+				</div>
+				<img alt="MyServer SkyBlock Server" class="gimg a" src="img/herowars.png">
+			</div>
 
-          <a href="steam.html">
-            <i class="fa-brands fa-steam fa-3x" style="color: #ffffff;" title="Steam"></i>
-          <a>
+		</div>
+		<div id="staff">
+			<div class="staff">
+				<h2>Náš tým</h2>
+				<div class="staff-team">
+					<div>
+						<h3>Kostrun</h3>
+						<div class="owner">Majitel</div>
+						<img alt="MyServer Staff Member" src="img/kostrun.png">
+					</div>
 
-          <a href="twitter.html">
-            <i class="fa-brands fa-twitter fa-3x" style="color: #ffffff;" title="Twitter"></i>
-          <a>
-    
-        </div>
-      </div>
-    </footer>
+					<div>
+						<h3>Aleex</h3>
+						<div class="owner">Vedení</div>
+						<img alt="MyServer Staff Member" src="img/Aleex.png">
+					</div>
 
-    <!--You can ignore this stuff down here.-->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Bootstrap JavaScript CDN -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  </body>
+					<div>
+						<h3>Bird</h3>
+						<div class="manager">Builder</div>
+						<img alt="MyServer Staff Member" src="img/bird.png">
+					</div>
+
+					<div>
+						<h3>5Bread</h3>
+						<div class="admin">Moderátor</div>
+						<img alt="MyServer Staff Member" src="img/5bread.png">
+					</div>
+
+					<div>
+						<h3>Weskac</h3>
+						<div class="admin">Moredátor</div>
+						<img alt="MyServer Staff Member" src="img/Weskac.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="announcement">
+			<div class="an-img">
+				<h2>Novinky a oznámení</h2>
+				<p class="an-t">
+					<b>Právě jsme spustili betu!</b>
+					<br><br>
+					Jelikož už je server skoro hotový tak jsme spustili beta testování pro zjištění bugů a chyb, budeme rádí když si to zkusíte.
+					<br><br>
+					<a href="#" class="btn">Přečíst více</a>
+				</p>
+			</div>
+		</div>
+		<div id="contact">
+			<h2>Připojte se na náš discord!</h2>
+			<p>Discord - <a href="https://herowars.cz/discord">Discord Link</a></p>
+		</div>
+
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+</body>
 </html>
